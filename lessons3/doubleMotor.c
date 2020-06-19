@@ -10,14 +10,10 @@ void setup()
   pinMode(11,OUTPUT);
   Serial.println("ready!");
 }
-
-/*
-预定
-'f':表示前进
-'b':表示后退
-'r':表示右转
-'l':表示左转
-*/
+//'f':ǰ�� 
+//'b':����
+//'r':��ת
+//'l':��ת
 void loop()
 {
   if(Serial.available()>0)
